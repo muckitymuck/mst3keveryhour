@@ -2,10 +2,10 @@
 import tweepy
 
 twitter_auth_keys = {
-    "consumer_key":   'DeGuuX7YYmZ9irk5FP6b2TH5H',
-    "consumer_secret":   '1rNDiSLtBfsD9fLiG0ZrUWCSlLjPmd8M5T9RUkC8c0Jc7F9rTA',
-    "access_token":   '14414455-eKInljrZxpbL9KY9gRYA3XPe8iA7c9kvKeGQIbXDl',
-    "access_token_secret":  'nRsN2Z84G20gAlsmOdHotOcu6YsgJ6zgngP2DELsDHAHa'
+    "consumer_key":   'consumer key',
+    "consumer_secret":   'consumer secret',
+    "access_token":   'access token',
+    "access_token_secret":  'access token secret'
     }
 
 auth = tweepy.OAuthHandler(
