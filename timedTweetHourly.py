@@ -34,7 +34,7 @@ basepath = 'C:/Path to frames collection/'
 #    time.sleep(3600)
 
 for entry in os.listdir(basepath):
-    if os.scandir(basepath):
+    if os.scandir(basepath):  #This can be done with os.listdir alternatively
         frameUpload = api.media_upload(entry)
         post_result = api.update_status(media_ids=[frameUpload.media_id])
         time.sleep(3600)
